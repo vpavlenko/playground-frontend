@@ -1,0 +1,43 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+section {
+    height: 100%;
+    background-color: lightyellow;
+}
+
+.column {
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    width: 33%;
+}
+
+.left-column {
+    height: 100%;
+    background-color: pink;
+}
+
+.center-column {
+    height: 100%;
+    margin-left: 33%;
+    background-color: lightgreen;
+}
+
+.right-column {
+    height: 100%;
+    margin-left: 66%;
+    background-color: lightblue;
+}
+
+footer {
+    position: absolute;
+    bottom: 2em;
+}
